@@ -91,13 +91,13 @@ def main():
     parser.add_argument(
         "--input",
         type=str,
-        default="../telco_customer_churn_dataset_raw.csv",
+        default="../Telco-Customer-Churn_Dataset_raw.csv",
         help="Path ke file dataset mentah (raw)"
     )
     parser.add_argument(
         "--output",
         type=str,
-        default="../telco_customer_churn_dataset_preprocessing/preprocessed_churn.csv",
+        default="../Telco-Customer-Churn_Dataset_preprocessing.csv",
         help="Path tujuan file dataset hasil preprocessing"
     )
     args = parser.parse_args()
