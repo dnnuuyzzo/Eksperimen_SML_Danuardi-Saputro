@@ -9,6 +9,9 @@ on:
       - 'preprocessing/automate_Danuardi-Saputro.py'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   preprocess:
     runs-on: ubuntu-latest
