@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'telco_customer_churn_dataset_raw.csv'
+      - 'Telco-Customer-Churn_Dataset_raw.csv'
       - 'preprocessing/automate_Danuardi-Saputro.py'
   workflow_dispatch:
 
