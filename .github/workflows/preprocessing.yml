@@ -38,6 +38,6 @@ jobs:
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add telco_customer_churn_dataset_preprocessing/
+          git add Telco-Customer-Churn_Dataset_preprocessing.csv
           git commit -m "Automated preprocessing update" || echo "No changes to commit"
           git push
